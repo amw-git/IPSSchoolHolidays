@@ -1,0 +1,14 @@
+{
+    "id": "{3B2428A3-AA47-421C-BF65-074C7102174B}",
+    "name": "IPSSchulferien",
+    "type": 0,
+    "vendor": "",
+    "aliases": 
+    [
+        "IPSSchulferien"
+    ],
+    "parentRequirements": [],
+    "childRequirements": [],
+    "implemented": [],
+    "prefix": "SCHOOL"
+}

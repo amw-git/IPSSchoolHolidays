@@ -1,0 +1,93 @@
+{
+    "elements":
+            [
+                {
+                    "name": "Area",
+                    "type": "Select",
+                    "caption": "Bundesland",
+                    "options": [
+                        {
+                            "label": "Baden-Württemberg",
+                            "value": "baden-wuerttemberg"
+                        },
+                        {
+                            "label": "Bayern",
+                            "value": "bayern"
+                        },
+                        {
+                            "label": "Berlin",
+                            "value": "berlin"
+                        },
+                        {
+                            "label": "Brandenburg",
+                            "value": "brandenburg"
+                        },
+                        {
+                            "label": "Bremen",
+                            "value": "bremen"
+                        },
+                        {
+                            "label": "Hamburg",
+                            "value": "hamburg"
+                        },
+                        {
+                            "label": "Hessen",
+                            "value": "hessen"
+                        },
+                        {
+                            "label": "Mecklenburg-Vorpommern",
+                            "value": "mecklenburg-vorpommern"
+                        },
+                        {
+                            "label": "Niedersachsen",
+                            "value": "niedersachsen"
+                        },
+                        {
+                            "label": "Nordrhein-Westfalen",
+                            "value": "nordrhein-westfalen"
+                        },
+                        {
+                            "label": "Rheinland-Pfalz",
+                            "value": "rheinland-pfalz"
+                        },
+                        {
+                            "label": "Saarland",
+                            "value": "saarland"
+                        },
+                        {
+                            "label": "Sachsen",
+                            "value": "sachsen"
+                        },
+                        {
+                            "label": "Sachsen-Anhalt",
+                            "value": "sachsen-anhalt"
+                        },
+                        {
+                            "label": "Schleswig-Holstein",
+                            "value": "schleswig-holstein"
+                        },
+                        {
+                            "label": "Thüringen",
+                            "value": "thueringen"
+                        }
+                    ]
+                },
+                {
+                    "type": "Label",
+                    "label": "Basis-URL von Schulferien.org"
+                },
+                {
+                    "name": "BaseURL",
+                    "type": "ValidationTextBox",
+                    "caption": "URL"
+                }
+            ],
+    "actions":
+            [
+                {
+                    "type": "Button",
+                    "label": "Update",
+                    "onClick": "SCHOOL_Update($id);"
+                }
+            ]
+}
